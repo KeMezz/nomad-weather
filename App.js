@@ -49,7 +49,6 @@ export default function App() {
     );
     const json = await response.json();
     setDailyForecast(json.daily);
-    console.log(dailyForecast);
   };
 
   useEffect(() => {
